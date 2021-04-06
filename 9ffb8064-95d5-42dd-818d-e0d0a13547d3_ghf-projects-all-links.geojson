@@ -1,0 +1,350 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Çatalhöyük, Turkey",
+        "url": "https://globalheritagefund.org/places/catalhoyuk-turkey/"
+      },
+      "geometry": {
+        "coordinates": [
+          32.825699,
+          37.6664
+        ],
+        "type": "Point"
+      },
+      "id": "148d4ceacaef1c1c956cd4fb0b59c6aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Hampi, India",
+        "url": "https://globalheritagefund.org/places/hampi-india/"
+      },
+      "geometry": {
+        "coordinates": [
+          76.46,
+          15.335
+        ],
+        "type": "Point"
+      },
+      "id": "18eede67a25f106d4a7815f9342c0215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Patan Durbar, Nepal",
+        "url": "https://globalheritagefund.org/places/patan-durbar-nepal/"
+      },
+      "geometry": {
+        "coordinates": [
+          85.3253,
+          27.6727
+        ],
+        "type": "Point"
+      },
+      "id": "23c2973a4299d456287ffe0b1874a4e2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Maijishan, China",
+        "url": "https://globalheritagefund.org/places/maijishan-china/"
+      },
+      "geometry": {
+        "coordinates": [
+          106.007679,
+          34.34883
+        ],
+        "type": "Point"
+      },
+      "id": "23c6b78341708c4f6ebbd1c7318ef739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Chavín de Huántar, Peru",
+        "url": "https://globalheritagefund.org/places/chavin-de-huantar-peru"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.1773,
+          -9.5937
+        ],
+        "type": "Point"
+      },
+      "id": "276c8d3962b87dcc24f18653b56ff5ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sagalassos, Turkey",
+        "url": "https://globalheritagefund.org/places/sagalassos-turkey/"
+      },
+      "geometry": {
+        "coordinates": [
+          30.517621,
+          37.675313
+        ],
+        "type": "Point"
+      },
+      "id": "35ffda1ab6265f730c339708bc0d61b1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cyrene, Libya",
+        "url": "https://globalheritagefund.org/places/cyrene-libya/"
+      },
+      "geometry": {
+        "coordinates": [
+          21.8628,
+          32.8034
+        ],
+        "type": "Point"
+      },
+      "id": "40031375185f832ea05b2f141f0e6cd2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Communal Granaries, Morocco",
+        "url": "https://globalheritagefund.org/places/sacred-granaries-morocco/"
+      },
+      "geometry": {
+        "coordinates": [
+          -9.493153,
+          30.613002
+        ],
+        "type": "Point"
+      },
+      "id": "52ec434f8cc41e8b61ca17e1e4342c92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Foguang Temple, China",
+        "url": "https://globalheritagefund.org/places/foguang-temple-china/"
+      },
+      "geometry": {
+        "coordinates": [
+          113.3939,
+          38.8703
+        ],
+        "type": "Point"
+      },
+      "id": "57fbba079e089599e033383b6a328397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Gobekli Tepe, Turkey",
+        "url": "https://globalheritagefund.org/places/gobekli-tepe-turkey/"
+      },
+      "geometry": {
+        "coordinates": [
+          38.9225,
+          37.2235
+        ],
+        "type": "Point"
+      },
+      "id": "81db52de5149d4c028bce1764d662555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ciudad Perdida, Colombia",
+        "url": "https://globalheritagefund.org/places/ciudad-perdida/"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.85057,
+          11.14956
+        ],
+        "type": "Point"
+      },
+      "id": "9152cda7030eb39dd511f718948821ff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wat Phu, Laos",
+        "url": "https://globalheritagefund.org/places/wat-phu-laos/"
+      },
+      "geometry": {
+        "coordinates": [
+          105.8146,
+          14.8491
+        ],
+        "type": "Point"
+      },
+      "id": "9ac3eecfbcb19da2a5eaf33b0fe82f91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ayios Vasileios, Greece",
+        "url": "https://globalheritagefund.org/places/ayios-vasileios-greece/"
+      },
+      "geometry": {
+        "coordinates": [
+          22.791195,
+          37.804878
+        ],
+        "type": "Point"
+      },
+      "id": "9da58597b875744a2bf9a464d63bf6b6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mirador, Guatemala",
+        "url": "https://globalheritagefund.org/places/mirador-guatemala"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.92056,
+          17.755
+        ],
+        "type": "Point"
+      },
+      "id": "9e02aed51fb3ea02612a4b771dd3aa28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kars, Turkey",
+        "url": "https://globalheritagefund.org/places/kars-turkey/"
+      },
+      "geometry": {
+        "coordinates": [
+          43.0975,
+          40.6013
+        ],
+        "type": "Point"
+      },
+      "id": "aca371d39c61486fa40c7aa919040ccd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "My Son, Vietnam",
+        "url": "https://globalheritagefund.org/places/my-son-vietnam/"
+      },
+      "geometry": {
+        "coordinates": [
+          108.1243,
+          15.7641
+        ],
+        "type": "Point"
+      },
+      "id": "b8b77b2708713736f98f45b85564af78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lijiang, China",
+        "url": "https://globalheritagefund.org/places/lijiang-china/"
+      },
+      "geometry": {
+        "coordinates": [
+          100.2277,
+          26.855
+        ],
+        "type": "Point"
+      },
+      "id": "bd8dd3d43cc7984cc1e42ec55049ea41"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Banteay Chhmar, Cambodia",
+        "url": "https://globalheritagefund.org/places/banteay-chhmar-cambodia/"
+      },
+      "geometry": {
+        "coordinates": [
+          103.09608,
+          14.125562
+        ],
+        "type": "Point"
+      },
+      "id": "cbb76c618f51d650940ba68818d29117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Dali Dong Village, Guizhou Province, China",
+        "url": "https://globalheritagefund.org/places/guizhou-china/"
+      },
+      "geometry": {
+        "coordinates": [
+          106.87134,
+          26.81351
+        ],
+        "type": "Point"
+      },
+      "id": "d27ac85b0be094214d6cf1cce1ef365c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Izborsk, Russia",
+        "url": "https://globalheritagefund.org/places/izborsk-russia/"
+      },
+      "geometry": {
+        "coordinates": [
+          27.8609,
+          57.7082
+        ],
+        "type": "Point"
+      },
+      "id": "d4cc0b75def5f82886636d23f537eb3f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Daia, Romania",
+        "url": "https://globalheritagefund.org/places/carpathian-villages-romania/"
+      },
+      "geometry": {
+        "coordinates": [
+          24.902744,
+          46.147078
+        ],
+        "type": "Point"
+      },
+      "id": "dfa4337fa111a1bdf674fef50242fec8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Amer Fort, India",
+        "url": "https://globalheritagefund.org/places/amer-fort-india/"
+      },
+      "geometry": {
+        "coordinates": [
+          75.85264,
+          26.98802
+        ],
+        "type": "Point"
+      },
+      "id": "ecf4714a78cdfb3075123157f17e5086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pingyao, China",
+        "url": "https://globalheritagefund.org/places/pingyao-china/"
+      },
+      "geometry": {
+        "coordinates": [
+          112.1762,
+          37.1898
+        ],
+        "type": "Point"
+      },
+      "id": "f127c45254ee65d88e7cb8c91a86b9ae"
+    }
+  ],
+  "type": "FeatureCollection"
+}
