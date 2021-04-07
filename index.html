@@ -31,16 +31,8 @@ center: [15.661557, 41.893748],
             type: 'geojson',
             // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
             // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-            data:
-             'https://global-heritage-fund.github.io/ghf-projects/9ffb8064-95d5-42dd-818d-e0d0a13547d3_ghf-projects-all-links.geojson',
-         
-         // this is working
-         // 'https://cdn.glitch.com/9ffb8064-95d5-42dd-818d-e0d0a13547d3%2Fghf-projects-all-links.geojson',
-            
-             // this is not working
-             // 'https://globalheritagefund.org/newdevghf/ghf-projects-all-links.geojson',
-           
-          cluster: true,
+            data: 'https://global-heritage-fund.github.io/ghf-projects/9ffb8064-95d5-42dd-818d-e0d0a13547d3_ghf-projects-all-links.geojson',          
+            cluster: true,
             clusterMaxZoom: 14, // Max zoom to cluster points on
             clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
         });
@@ -147,7 +139,7 @@ center: [15.661557, 41.893748],
                 // .setHTML('<h3>' + title + '</h3><a href="https://globalheritagefund.org/places/chavin-de-huantar-peru">Learn more.</a>')
               
                  // this does not
-                 .setHTML('<h3>' + title + '</h3><a href="' + url + '">Learn more.</a>')
+                 .setHTML('<h3>' + title + '</h3><a href="' + url + '" target="_parent">Learn more.</a>')
           
               .addTo(map);
         });
