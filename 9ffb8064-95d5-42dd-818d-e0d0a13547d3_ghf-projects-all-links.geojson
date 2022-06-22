@@ -199,7 +199,9 @@
       "type": "Feature",
       "properties": {
         "title": "Mirador, Guatemala",
-        "url": "https://globalheritagefund.org/places/mirador-guatemala"
+        "url": "https://globalheritagefund.org/places/mirador-guatemala",
+        "desc": "Located in the birthplace of the Maya civilization, the city of El Mirador in Guatemala saw scientific restoration efforts and emergency stabilization of La Danta, along with LiDAR mapping 26 previously unknown Mayan cities.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2021/05/mirador-guatemala-global-heritage-fund-9.jpg"
       },
       "geometry": {
         "coordinates": [
