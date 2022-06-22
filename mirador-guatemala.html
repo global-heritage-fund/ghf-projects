@@ -124,6 +124,8 @@ center: [-89.92056, 17.755],
             var coordinates = e.features[0].geometry.coordinates.slice();
             var title = e.features[0].properties.title;
             var url = e.features[0].properties.url;
+            var desc = e.features[0].properties.desc;
+            var img = e.features[0].properties.img;
             
             // Ensure that if the map is zoomed out such that
             // multiple copies of the feature are visible, the
@@ -139,7 +141,9 @@ center: [-89.92056, 17.755],
                 // .setHTML('<h3>' + title + '</h3><a href="https://globalheritagefund.org/places/chavin-de-huantar-peru">Learn more.</a>')
               
                  // this does not
-                 .setHTML('<h3>' + title + '</h3><a href="' + url + '" target="_parent">Learn more.</a>')
+                 // .setHTML('<h3>' + title + '</h3><a href="' + url + '" target="_parent">Learn more.</a>')
+                 .setHTML('<img src="' + img + '"> + '<h3>' + title + '</h3><a href="' + url + '" target="_parent">Learn more.</a>')
+
           
               .addTo(map);
         });
