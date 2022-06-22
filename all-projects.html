@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Create and style clusters</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+ 
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZ2xvYmFsaGVyaXRhZ2VmdW5kIiwiYSI6ImNrbGs1N3l1YTJ5NzkydnBjZWNjdzJnM2oifQ.6KZziY7qMRqs2dt-OyZVgg'; 
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/globalheritagefund/cl4pwzbtp000114pd6r2ay1hv', 
+center: [7.594299, 28.926439],
+      zoom: 2.0
+});
+
+    map.on('load', function () {
+
+        map.addSource('ghf-projects', {
+            type: 'geojson',
+            data: 'https://global-heritage-fund.github.io/ghf-projects/9ffb8064-95d5-42dd-818d-e0d0a13547d3_ghf-projects-all-links.geojson',          
+            cluster: true,
+            clusterMaxZoom: 14, 
+            clusterRadius: 50 
+        });
+
+        map.addLayer({
+            id: 'clusters',
+            type: 'circle',
+            source: 'ghf-projects',
+            filter: ['has', 'point_count'],
+            paint: {
+                
+                'circle-color': [
+                    'step',
+                    ['get', 'point_count'],
+                    '#292a2b',
+                    100,
+                    '#292a2b',
+                    750,
+                    '#292a2b'
+                ],
+                'circle-radius': [
+                    'step',
+                    ['get', 'point_count'],
+                    18,
+                    100,
+                    30,
+                    750,
+                    40
+                ]
+            }
+        });
+
+        map.addLayer({
+            id: 'cluster-count',
+            type: 'symbol',
+            source: 'ghf-projects',
+            filter: ['has', 'point_count'],
+            layout: {
+                'text-field': '{point_count_abbreviated}',
+                'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                'text-size': 16,
+            },
+          paint: {
+          "text-color": "#ffffff"
+          }
+        });
+
+        map.addLayer({
+            id: 'unclustered-point',
+            type: 'symbol',
+            source: 'ghf-projects',
+            filter: ['!', ['has', 'point_count']],
+            'layout': {
+                'icon-image': 'ghf-marker-mapbox',
+                'icon-size': 0.2,
+                'icon-padding': 0,
+                'icon-allow-overlap': true
+            }
+        });
+
+        // inspect a cluster on click
+        map.on('click', 'clusters', function (e) {
+            var features = map.queryRenderedFeatures(e.point, {
+                layers: ['clusters']
+            });
+            var clusterId = features[0].properties.cluster_id;
+            map.getSource('ghf-projects').getClusterExpansionZoom(
+                clusterId,
+                function (err, zoom) {
+                    if (err) return;
+
+                    map.easeTo({
+                        center: features[0].geometry.coordinates,
+                        zoom: zoom
+                    });
+                }
+            );
+        });
+
+
+        map.on('click', 'unclustered-point', function (e) {
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var title = e.features[0].properties.title;
+            var url = e.features[0].properties.url;
+            
+
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                
+
+                 .setHTML('<h3>' + title + '</h3><a href="' + url + '" target="_parent">Learn more.</a>')
+          
+              .addTo(map);
+        });
+
+        map.on('mouseenter', 'clusters', function () {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'clusters', function () {
+            map.getCanvas().style.cursor = '';
+        });
+    });
+
+map.addControl(new mapboxgl.NavigationControl());
+map.scrollZoom.disable();
+</script>
+
+</body>
+</html>
