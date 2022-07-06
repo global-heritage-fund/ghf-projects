@@ -151,7 +151,8 @@ center: [-89.92056, 17.755],
         // Center the map on the coordinates of any clicked circle from the 'circle' layer.
                 map.on('click', 'unclustered-point', (e) => {
                 map.flyTo({
-                center: e.features[0].geometry.coordinates
+                center: e.features[0].geometry.coordinates,
+                offset: [300, 0]
                 });
         });
  
