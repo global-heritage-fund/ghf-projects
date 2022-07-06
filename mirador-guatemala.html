@@ -148,15 +148,28 @@ center: [-89.92056, 17.755],
               .addTo(map);
         });
 
-        map.on('mouseenter', 'clusters', function () {
-            map.getCanvas().style.cursor = 'pointer';
+        // Center the map on the coordinates of any clicked circle from the 'circle' layer.
+                map.on('click', 'circle', (e) => {
+                map.flyTo({
+                center: e.features[0].geometry.coordinates
+                });
         });
-        map.on('mouseleave', 'clusters', function () {
-            map.getCanvas().style.cursor = '';
+ 
+        // Change the cursor to a pointer when the it enters a feature in the 'circle' layer.
+                map.on('mouseenter', 'circle', () => {
+                map.getCanvas().style.cursor = 'pointer';
+                });
+ 
+        // Change it back to a pointer when it leaves.
+                map.on('mouseleave', 'circle', () => {
+                map.getCanvas().style.cursor = '';
         });
+     
     });
- // Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.NavigationControl());
+ 
+       // Add zoom and rotation controls to the map.
+       map.addControl(new mapboxgl.NavigationControl());
+ 
 </script>
 
 </body>
