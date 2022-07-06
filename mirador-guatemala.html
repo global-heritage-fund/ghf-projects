@@ -149,19 +149,19 @@ center: [-89.92056, 17.755],
         });
 
         // Center the map on the coordinates of any clicked circle from the 'circle' layer.
-                map.on('click', 'circle', (e) => {
+                map.on('click', 'unclustered-point', (e) => {
                 map.flyTo({
                 center: e.features[0].geometry.coordinates
                 });
         });
  
         // Change the cursor to a pointer when the it enters a feature in the 'circle' layer.
-                map.on('mouseenter', 'circle', () => {
+                map.on('mouseenter', 'unclustered-point', () => {
                 map.getCanvas().style.cursor = 'pointer';
                 });
  
         // Change it back to a pointer when it leaves.
-                map.on('mouseleave', 'circle', () => {
+                map.on('mouseleave', 'unclustered-point', () => {
                 map.getCanvas().style.cursor = '';
         });
      
