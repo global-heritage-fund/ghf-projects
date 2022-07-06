@@ -128,10 +128,10 @@ center: [7.594299, 28.926439],
               .addTo(map);
         });
 
-        map.on('mouseenter', 'clusters', function () {
+        map.on('mouseenter', 'circle', function () {
             map.getCanvas().style.cursor = 'pointer';
         });
-        map.on('mouseleave', 'clusters', function () {
+        map.on('mouseleave', 'circle', function () {
             map.getCanvas().style.cursor = '';
         });
     });
