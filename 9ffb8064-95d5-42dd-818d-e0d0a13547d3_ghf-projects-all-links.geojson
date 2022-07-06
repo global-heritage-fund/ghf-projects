@@ -4,7 +4,9 @@
       "type": "Feature",
       "properties": {
         "title": "Çatalhöyük, Turkey",
-        "url": "https://globalheritagefund.org/places/catalhoyuk-turkey/"
+        "url": "https://globalheritagefund.org/places/catalhoyuk-turkey/",
+        "desc": "Home to some of the earliest known wall murals, Çatalhöyük has been a focus of archaeological investigation since 1993 and is the first Neolithic site selected from the Middle East to be inscribed onto the UNESCO World Heritage List. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/catalhoyuk-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -19,7 +21,9 @@
       "type": "Feature",
       "properties": {
         "title": "Hampi, India",
-        "url": "https://globalheritagefund.org/places/hampi-india/"
+        "url": "https://globalheritagefund.org/places/hampi-india/",
+        "desc": "A historic city on the banks of the Tungabhadra River in the south Indian state of Karnataka, Hampi offers temples, shrines, memorials, forts, and palaces to those who visit the once-prosperous metropolis that underwent immense structural restoration after prolonged misuse. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/hampi-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -34,7 +38,9 @@
       "type": "Feature",
       "properties": {
         "title": "Patan Durbar, Nepal",
-        "url": "https://globalheritagefund.org/places/patan-durbar-nepal/"
+        "url": "https://globalheritagefund.org/places/patan-durbar-nepal/",
+        "desc": "Considered Nepal’s most important cultural attraction, Vishveshvara Temple and Patan Durbar Square required immense technical expertise and heritage preservation efforts following the 7.8 magnitude earthquake that devastated the culture-rich Kathmandu Valley of Nepal in 2015.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/patan-durbar-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -49,7 +55,9 @@
       "type": "Feature",
       "properties": {
         "title": "Maijishan, China",
-        "url": "https://globalheritagefund.org/places/maijishan-china/"
+        "url": "https://globalheritagefund.org/places/maijishan-china/",
+        "desc": "A singular complex of 221 grottoes, Maijishan is a UNESCO World Heritage Site with more than 1000 square meters of murals depicting the rise of Buddhism from the birth of Siddhartha, and facing drastic rises in domestic tourism. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/maijishan-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -64,7 +72,9 @@
       "type": "Feature",
       "properties": {
         "title": "Chavín de Huántar, Peru",
-        "url": "https://globalheritagefund.org/places/chavin-de-huantar-peru"
+        "url": "https://globalheritagefund.org/places/chavin-de-huantar-peru",
+        "desc": "A pre-Columbian settlement in the Andes Mountains of Peru, the site of Chavín de Huántar undertook a master plan of preservation and training programs to revive the lost artisanal techniques of the Chavín people.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/chavin-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -79,7 +89,9 @@
       "type": "Feature",
       "properties": {
         "title": "Sagalassos, Turkey",
-        "url": "https://globalheritagefund.org/places/sagalassos-turkey/"
+        "url": "https://globalheritagefund.org/places/sagalassos-turkey/",
+        "desc": "Captured in 332 BC from the Persian Empire by Alexander the Great, Sagalassos sits at its remote location against the Taurus Mountains where conservation efforts are focused on restoring its beautiful Roman baths and infamous Upper Agora. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/sagalassos-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -94,7 +106,9 @@
       "type": "Feature",
       "properties": {
         "title": "Cyrene, Libya",
-        "url": "https://globalheritagefund.org/places/cyrene-libya/"
+        "url": "https://globalheritagefund.org/places/cyrene-libya/",
+        "desc": "Among the most important Classical Greek sites outside of Greece, Cyrene ranks among one of the most neglected and endangered sites in the Mediterranean Basin, due to improper restoration and extensive looting of its Greek artifacts.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/cyrene-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -109,7 +123,9 @@
       "type": "Feature",
       "properties": {
         "title": "Communal Granaries, Morocco",
-        "url": "https://globalheritagefund.org/places/sacred-granaries-morocco/"
+        "url": "https://globalheritagefund.org/places/sacred-granaries-morocco/",
+        "desc": "Along the Anti-Atlas Mountains in Morocco’s far south, the Collective Granaries are a powerful symbol of Amazigh societies and serve as unique historic landscapes representing cultural Moroccan identities.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/granaries-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -124,7 +140,9 @@
       "type": "Feature",
       "properties": {
         "title": "Foguang Temple, China",
-        "url": "https://globalheritagefund.org/places/foguang-temple-china/"
+        "url": "https://globalheritagefund.org/places/foguang-temple-china/",
+        "desc": "Recognized as China’s second oldest surviving wooden structure, Foguang Temple is considered The Fountainhead of classical Chinese architecture and had been almost untouched since the Tang Dynasty, welcoming intense conservation work and emergency interventions to retain the integrity of the site.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/foguang-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -139,7 +157,9 @@
       "type": "Feature",
       "properties": {
         "title": "Gobekli Tepe, Turkey",
-        "url": "https://globalheritagefund.org/places/gobekli-tepe-turkey/"
+        "url": "https://globalheritagefund.org/places/gobekli-tepe-turkey/",
+        "desc": "Göbekli Tepe is the oldest place of worship to ever be discovered, with its T-shaped pillars and their adorning totem animals still being excavated to this day, as some refer to the site as a ‘mystery older than Stonehenge’. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/gobekli-tepe-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -154,7 +174,9 @@
       "type": "Feature",
       "properties": {
         "title": "Ciudad Perdida, Colombia",
-        "url": "https://globalheritagefund.org/places/ciudad-perdida/"
+        "url": "https://globalheritagefund.org/places/ciudad-perdida/",
+        "desc": "The “Lost City” of the Tayrona people is one of Colombia’s once-hidden treasures, fueling tourism and serving as a biosphere for the Indigenous peoples who live there today. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/ciudad-perdida-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -169,7 +191,9 @@
       "type": "Feature",
       "properties": {
         "title": "Wat Phu, Laos",
-        "url": "https://globalheritagefund.org/places/wat-phu-laos/"
+        "url": "https://globalheritagefund.org/places/wat-phu-laos/",
+        "desc": "The Khmer imperial ruins of Wat Phu, or ‘Mountain Temple’ - a shrine dedicated to the god Shiva - suffered water erosion and poor maintenance prior to the emergency stabilization and training efforts that took place to transform the spiritually-significant site. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/wat-phu-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -184,7 +208,9 @@
       "type": "Feature",
       "properties": {
         "title": "Ayios Vasileios, Greece",
-        "url": "https://globalheritagefund.org/places/ayios-vasileios-greece/"
+        "url": "https://globalheritagefund.org/places/ayios-vasileios-greece/",
+        "desc": "Ferociously destroyed by a fire in the 14th century, Ayios Vasileios is the only known Mycenean palace in the region surrounding Sparta and received crucial community development support to drive the extensive conservation work needed to preserve the ancient site.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/ayios-vasileios-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -201,7 +227,7 @@
         "title": "Mirador, Guatemala",
         "url": "https://globalheritagefund.org/places/mirador-guatemala",
         "desc": "Located in the birthplace of the Maya civilization, the city of El Mirador in Guatemala saw scientific restoration efforts and emergency stabilization of La Danta, along with LiDAR mapping 26 previously unknown Mayan cities.",
-        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2021/05/mirador-guatemala-global-heritage-fund-9.jpg"
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/mirador-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -216,7 +242,9 @@
       "type": "Feature",
       "properties": {
         "title": "Kars, Turkey",
-        "url": "https://globalheritagefund.org/places/kars-turkey/"
+        "url": "https://globalheritagefund.org/places/kars-turkey/",
+        "desc": "Located at the crossroads where Turkey meets Georgia and Armenia, Kars’ built heritage exemplifies its diverse cultural layers and invites sustainable tourism to visit its revitalized bath houses and community centers that represent its Ottoman and Armenian heritage. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/kars-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -231,7 +259,9 @@
       "type": "Feature",
       "properties": {
         "title": "My Son, Vietnam",
-        "url": "https://globalheritagefund.org/places/my-son-vietnam/"
+        "url": "https://globalheritagefund.org/places/my-son-vietnam/",
+        "desc": "The largest and oldest ancient ruins in Vietnam, My Son offers testament to the technological sophistication of the Cham people and is an example of effective collaboration on heritage preservation, working with Vietnam’s World Heritage in Young Hands program.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/my-son-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -246,7 +276,9 @@
       "type": "Feature",
       "properties": {
         "title": "Lijiang, China",
-        "url": "https://globalheritagefund.org/places/lijiang-china/"
+        "url": "https://globalheritagefund.org/places/lijiang-china/",
+        "desc": "Lijiang Ancient Town is among the most popular tourist spots in China with over ten million visitors annually drawn to this enchanting maze of canals crisscrossed by footbridges and cobblestone streets, and over 400 restored historic buildings.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/lijiang-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -261,7 +293,9 @@
       "type": "Feature",
       "properties": {
         "title": "Banteay Chhmar, Cambodia",
-        "url": "https://globalheritagefund.org/places/banteay-chhmar-cambodia/"
+        "url": "https://globalheritagefund.org/places/banteay-chhmar-cambodia/",
+        "desc": "One hundred and seventy kilometers northwest of Angkor Wat, Banteay Chhmar thrives on tourism and community guided efforts to protect what could not be destroyed by looters following King Jayavarman VII’s death.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/banteay-chhmar-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -276,7 +310,9 @@
       "type": "Feature",
       "properties": {
         "title": "Dali Dong Village, Guizhou Province, China",
-        "url": "https://globalheritagefund.org/places/guizhou-china/"
+        "url": "https://globalheritagefund.org/places/guizhou-china/",
+        "desc": "Where low river valleys meet steep terraced mountainsides in the Guizhou province of China, Dali Dong Village is home to the first women-led coop using traditional indigo dye to keep the heritage of the community intact with contemporary needs.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/dali-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -291,7 +327,9 @@
       "type": "Feature",
       "properties": {
         "title": "Izborsk, Russia",
-        "url": "https://globalheritagefund.org/places/izborsk-russia/"
+        "url": "https://globalheritagefund.org/places/izborsk-russia/",
+        "desc": "Izborsk Fortress conjures up Game of Thrones with its impenetrable limestone walls and commanding watchtowers, though overtime it disintegrated due to the elements. Global Heritage Fund helped start the Izborsk Project Trust to ensure its long-term protection.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/izborsk-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -306,7 +344,9 @@
       "type": "Feature",
       "properties": {
         "title": "Daia, Romania",
-        "url": "https://globalheritagefund.org/places/carpathian-villages-romania/"
+        "url": "https://globalheritagefund.org/places/carpathian-villages-romania/",
+        "desc": "Among the valley folds and oak forests of Transylvania, the village of Daia in Romania served as the incubator project for our work in the Carpathian Villages, where we leveraged the past to ensure Daia’s future is not forgotten. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/daia-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -321,7 +361,9 @@
       "type": "Feature",
       "properties": {
         "title": "Amer Fort, India",
-        "url": "https://globalheritagefund.org/places/amer-fort-india/"
+        "url": "https://globalheritagefund.org/places/amer-fort-india/",
+        "desc": "The second most visited site in India after the Taj Mahal, Amer Fort was added to the UNESCO List of World Heritage Sites in 2013 and attracts up to 5,000 local and international visitors per day, putting tremendous stress on the heritage site and requiring ongoing conservation.",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/amer-fort-map.jpg"
       },
       "geometry": {
         "coordinates": [
@@ -336,7 +378,9 @@
       "type": "Feature",
       "properties": {
         "title": "Pingyao, China",
-        "url": "https://globalheritagefund.org/places/pingyao-china/"
+        "url": "https://globalheritagefund.org/places/pingyao-china/",
+        "desc": "Formerly one of China’s most vibrant financial centers, Pingyao’s walled heritage quarter suffered damages due to overcrowding, allowing for work on the integrity of its historic structures to take place through world-class methodologies. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/07/pingyao-map.jpg"
       },
       "geometry": {
         "coordinates": [
