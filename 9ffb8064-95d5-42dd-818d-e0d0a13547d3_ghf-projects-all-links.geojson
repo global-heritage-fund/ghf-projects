@@ -156,6 +156,23 @@
     {
       "type": "Feature",
       "properties": {
+        "desc": "A land of golden dome-topped churches, wax-painted eggs, and fascinating architecture, Ukraine is the land of a richly unique cultural heritage and home to seven UNESCO World Heritage sites. ",
+        "img": "https://globalheritagefund.org/newdevghf/wp-content/uploads/2022/08/GHF-map-kharkiv-ukraine.jpg",
+        "title": "Kharkiv, Ukraine",
+        "url": "https://globalheritagefund.org/places/kharkiv-ukraine/"
+      },
+      "geometry": {
+        "coordinates": [
+          36.242294,
+          49.996612
+        ],
+        "type": "Point"
+      },
+      "id": "6234c4080b5eb29b004e626a904cf196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Gobekli Tepe, Turkey",
         "url": "https://globalheritagefund.org/places/gobekli-tepe-turkey/",
         "desc": "Göbekli Tepe is the oldest place of worship to ever be discovered, with its T-shaped pillars and their adorning totem animals still being excavated to this day, as some refer to the site as a ‘mystery older than Stonehenge’. ",
